@@ -1,16 +1,28 @@
-### Hi there 👋
+# Profile
 
-<!--
-**HansenKhi/HansenKhi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```php
+<?php
 
-Here are some ideas to get you started:
+class About {
+  public function me($data) {
+    var_dump($data);
+  }
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+$data = [
+  "Name" => "Hansen",
+  "Proggraming Language" => ["PHP", "JAVASCRIPT"],
+  "Country" => "Indonesia",
+  "State" => null,
+];
+
+$AboutMe = new About();
+$AboutMe->me($data);
+
+```
+
+Hi im **Hansen** im 11 years old im from Indonesia!
+
+My favorite proggraming language is
+
+```PHP```, ```JS / JAVASCRIPT```
